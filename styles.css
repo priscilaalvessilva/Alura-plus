@@ -14,3 +14,33 @@ body {
     margin: 0;
     padding: 0;
 }
+
+.principal {
+    background-image: url("_imagens/Background.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.conteiner {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50% ;
+}
+
+.conteiner_botao {
+    background-color: var(--botao-azul);
+    border-radius: 5px;
+    padding: 1em;
+    color: var(--branco-principal);
+    display: block;
+    text-align: center;
+}
+
+.conteiner_botao_2 {
+    background-color: transparent;
+    border: 2px solid var(--branco-principal);
+    padding: 1em;
+    color: var(--cinza-secundario);
+    display: block;
+    text-align: center;
+}
