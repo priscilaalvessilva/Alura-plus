@@ -110,3 +110,15 @@ body {
 .descricao_texto_terciario {
     color: var(--cinza-secundario);
 }
+
+.terciario_botao {
+    background-color: var(--botao-azul);
+    display: inline-block;
+    border-radius: 6px;
+    padding: 1em;
+    color: var(--branco-principal);
+    text-align: center;
+    text-decoration: none;
+    margin-top: 1em;
+    
+}
