@@ -35,7 +35,7 @@ body {
 }
 
 .conteiner_principal_titulo {
-    font-size: 28px;
+    font-size: 26px;
     font-weight: 700;
     font-family: var(--fonte-principal);
 }
@@ -44,7 +44,7 @@ body {
 
 .conteiner_botao {
     background-color: var(--botao-azul);
-    border-radius: 5px;
+    border-radius: 2px;
     padding: 1em;
     color: var(--branco-principal);
     display: block;
@@ -61,6 +61,7 @@ body {
     display: block;
     text-align: center;
     text-decoration: none;
+    margin-bottom: 1em;
 }
 
 .conteiner_aviso {
@@ -73,5 +74,39 @@ body {
 }
 
 .conteiner_caixa {
-    margin: 0 1em;
+    margin: 0 6em;
+}
+
+.secundario_imagem {
+    width: 80%;
+}
+
+.secundario {
+    align-items: center;
+    margin: 0 10em;
+}
+
+.descricao_titulo {
+    font-weight: 700;
+    font-size: 45px;
+    color: var(--branco-principal);
+    margin-bottom: 0.1em;
+}
+
+.descricao_texto {
+    color: var(--cinza-secundario);
+}
+
+.terciario {
+    align-items: center;
+    margin: 1em 10em;
+}
+
+.terciario_imagem {
+    width: 80%;
+    padding: 10%;
+}
+
+.descricao_texto_terciario {
+    color: var(--cinza-secundario);
 }
