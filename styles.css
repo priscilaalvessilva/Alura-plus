@@ -120,5 +120,13 @@ body {
     text-align: center;
     text-decoration: none;
     margin-top: 1em;
-    
+}
+
+.dispositivos {
+    align-items: center;
+    text-align: center;
+}
+
+.dispositivos_lista {
+    display: -ms-inline-grid;
 }
